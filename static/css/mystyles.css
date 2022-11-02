@@ -1,0 +1,20 @@
+
+h1,h2,h3,h4,h5,h6{
+  display: inline-block;
+margin: 0px;
+}
+h1,h5,span h3, span h2{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+}
+#about_footer,.span{
+  display: flex;
+  justify-content: space-around;
+}
+body div[class=block]{
+  width: 400px;
+  height: 400px;
+  color: rgba(255,60, 0, 0.5);
+  background-color: rgb(255, 80, 0);
+}
